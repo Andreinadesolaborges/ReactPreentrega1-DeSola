@@ -1,0 +1,80 @@
+.logoText {
+   margin-left: 0.5em;
+}
+
+.logoSpaceLeft{
+    padding-left: 0px;
+}
+
+.noPaddingLeft{
+    padding-left: 0px;
+}
+
+.cartText {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+ }
+
+ span{
+     font-size: 12px;
+ }
+
+.btn {
+    font-size: 12px;
+}
+
+a {
+    font-size: 12px;
+}
+.card-text{
+    font-size: 10px;
+}
+
+span.navbar-toggler-icon {
+    background-image: url(../img/hamburger.svg);
+}
+
+.navbar-toggler:focus{
+    box-shadow: none;
+    
+}
+
+/*Saturate*/
+.saturate{
+    -webkit-filter: saturate(50%);
+    filter: saturate(50%);
+    -webkit-transition: .4s ease-in-out;
+    transition: .4s ease-in-out;
+  }
+  .saturate:hover {
+    -webkit-filter: saturate(100%);
+    filter: saturate(100%);
+  }
+
+  /*Hover text 1*/
+  .hoverLine {
+    --c:linear-gradient(#000 0 0); /* update the color here */
+    
+    padding-bottom: .15em;
+    background: var(--c), var(--c);
+    background-size: .3em .1em;
+    background-position:50% 100%;
+    background-repeat: no-repeat;
+    transition: .4s ease-in-out, background-size .4s .3s ease-in-out;
+  }
+  .hoverLine:hover {
+    background-size: 40% .1em;
+    background-position: 10% 100%, 90% 100%;
+  }
+  
+  /*Zoom In*/
+.zoomIn{
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .4s ease-in-out;
+    transition: .4s ease-in-out;
+  }
+  .zoomIn:hover{
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
