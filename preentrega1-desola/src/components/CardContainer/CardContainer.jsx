@@ -1,6 +1,7 @@
 import Cardproduct from "../CardProduct/CardProduct";
-import amatista from '../../img/items/Amatista.png';
+import amatista from '../../img/items/amatista.png';
 import obsidiana from '../../img/items/obsidiana.png';
+import vela from '../../img/items/vela.png'
 const Cardcontainer = () => {
     return (
         <>
@@ -16,6 +17,9 @@ const Cardcontainer = () => {
                     </div>
                     <div className="col-6 col-sm-4 col-md-3 text-center align-self-center">
                         <Cardproduct title={"Obsidiana"} description={"La obsidiana es un vidrio volcánico natural formado a partir de lava enfriada rápidamente. Es un tipo de roca ígnea, caracterizada por su superficie lisa, bordes afilados y una textura vítrea."} url={obsidiana} />
+                    </div>
+                    <div className="col-6 col-sm-4 col-md-3 text-center align-self-center">
+                        <Cardproduct title={"Vela simple"} description={"Una vela es un objeto de forma cilíndrica o cónica hecho de cera, sebo u otro material inflamable, con una mecha central que se enciende para producir luz y calor."} url={vela} />
                     </div>
                 </div>
             </div>
