@@ -125,8 +125,8 @@ span.navbar-toggler-icon {
 .hvr-float-shadow:hover,
 .hvr-float-shadow:focus,
 .hvr-float-shadow:active {
-    -webkit-transform: translateY(-5px);
-    transform: translateY(-5px);
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
     /* move the element up by 5px */
 }
 
@@ -134,7 +134,7 @@ span.navbar-toggler-icon {
 .hvr-float-shadow:focus:before,
 .hvr-float-shadow:active:before {
     opacity: 1;
-    -webkit-transform: translateY(5px);
-    transform: translateY(5px);
+    -webkit-transform: translateY(10px);
+    transform: translateY(10px);
     /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
 }

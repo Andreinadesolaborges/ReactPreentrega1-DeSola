@@ -2,7 +2,7 @@
 const Cardproduct = ({title,description,url}) => {
     return (
         <>
-            <div className="card hvr-float-shadow">
+            <div className="card hvr-float-shadow my-3">
                 <img src={url} className="card-img-top img-fluid" alt={"img"} />
                 <div className="card-body">
                     <h5 className="card-title">{title}</h5>
