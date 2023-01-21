@@ -1,3 +1,4 @@
+import Counter from "../Counter/Counter";
 
 const Cardproduct = ({title,description,url}) => {
     return (
@@ -7,7 +8,8 @@ const Cardproduct = ({title,description,url}) => {
                 <div className="card-body">
                     <h5 className="card-title">{title}</h5>
                     <p className="card-text">{description}</p>
-                    <a href="#" className="btn btn-primary zoomIn">Agregar</a>
+                    <Counter/>
+                    <a href="#" className="btn btn-primary d-block zoomIn ">Agregar</a>
                 </div>
             </div>
         </>
