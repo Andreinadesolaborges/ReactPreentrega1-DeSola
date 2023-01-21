@@ -1,6 +1,5 @@
-import Counter from "../Counter/Counter";
-
-const Cardproduct = ({title,description,url}) => {
+import Itemcount from "../ItemCount/ItemCount";
+const Cardproduct = ({title,description, precio,url}) => {
     return (
         <>
             <div className="card hvr-float-shadow my-3">
@@ -8,7 +7,8 @@ const Cardproduct = ({title,description,url}) => {
                 <div className="card-body">
                     <h5 className="card-title">{title}</h5>
                     <p className="card-text">{description}</p>
-                    <Counter/>
+                    <h6 className="price-text badge rounded-pill bg-light d-block"> ${precio}</h6>
+                    <Itemcount valInicial={1} stock={10}/>
                     <a href="#" className="btn btn-primary d-block zoomIn ">Agregar</a>
                 </div>
             </div>

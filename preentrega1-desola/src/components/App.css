@@ -146,3 +146,12 @@ span.navbar-toggler-icon {
 .pad-btn{
     padding: 20px 24px;
 }
+
+.pad-btn-counter{
+    padding: 12px 18px;
+}
+
+.price-text{
+    margin: 0px auto;
+    width: fit-content;
+}
