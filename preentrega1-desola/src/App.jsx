@@ -1,7 +1,7 @@
-import Navbar from "./Navbar/Navbar";
+import Navbar from "./components/Navbar/Navbar";
 import './App.css';
-import Itemlistcontainer from "./ItemListContainer/ItemListContainer";
-import Cardcontainer from "./CardContainer/CardContainer";
+import Itemlistcontainer from "./components/ItemListContainer/ItemListContainer";
+import Cardcontainer from "./components/CardContainer/CardContainer";
 
 
 const App = () => {
