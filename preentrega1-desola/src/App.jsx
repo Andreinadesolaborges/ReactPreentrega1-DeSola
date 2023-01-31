@@ -1,15 +1,17 @@
 import Navbar from "./components/Navbar/Navbar";
 import './App.css';
-import Itemlistcontainer from "./components/ItemListContainer/ItemListContainer";
+import Herocontainer from "./components/HeroContainer/Herocontainer";
 import Cardcontainer from "./components/CardContainer/CardContainer";
+import { Itemlistcontainer } from "./components/ItemListContainer/ItemListContainer";
 
 
 const App = () => {
   return (
     <>
         <Navbar />
-        <Itemlistcontainer mainHeader={"Bienvenid@s a la tienda de Nina"} subtitle={"La magia existe"} />
+        <Herocontainer mainHeader={"Bienvenid@s a la tienda de Nina"} subtitle={"La magia existe"} />
         <Cardcontainer/>
+        
     </>
   );
 }
