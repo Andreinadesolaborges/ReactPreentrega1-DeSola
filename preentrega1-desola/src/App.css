@@ -31,7 +31,7 @@ a {
     font-size: 12px;
 }
 
-.card-text {
+.card-info {
     font-size: 10px;
     display: -webkit-box;
     overflow: hidden;
@@ -152,6 +152,6 @@ span.navbar-toggler-icon {
 }
 
 .price-text{
-    margin: 0px auto;
     width: fit-content;
+    margin-bottom: 1rem;
 }

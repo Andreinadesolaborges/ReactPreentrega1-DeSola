@@ -8,10 +8,11 @@ const Itemcount = ({valInicial, stock}) => {
 
     return (
         <>
+            <div className="text-center">
             <button className="btn btn-secondary pad-btn-counter" onClick={()=>restar()}>-</button>
             <span className="mx-1">{contador}</span>
             <button className="btn btn-secondary pad-btn-counter" onClick={()=>sumar()}>+</button>
-            
+            </div>
         </>
     );
 }

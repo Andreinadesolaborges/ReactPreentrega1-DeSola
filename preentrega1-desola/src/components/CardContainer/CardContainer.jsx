@@ -1,4 +1,3 @@
-import Cardproduct from "../CardProduct/CardProduct";
 import { Itemlistcontainer } from "../ItemListContainer/ItemListContainer";
 
 const Cardcontainer = () => {

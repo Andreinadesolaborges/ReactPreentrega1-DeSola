@@ -1,21 +1,20 @@
-import React from 'react';
-import Itemcount from '../ItemCount/ItemCount';
+import Itemcount from "../ItemCount/ItemCount";
+
 const Item = ({ item }) => {
     return (
         <>
-            
-                <div className="col-6 col-sm-4 col-md-3 text-center align-self-center">
-                    <div className="card hvr-float-shadow my-3">
-                        <img src={item.img} className="card-img-top img-fluid" alt={"img"} />
-                        <div className="card-body">
-                            <h5 className="card-title">{item.nombre}</h5>
-                            <p className="card-text">{item.descripcion}</p>
-                            <h6 className="price-text badge rounded-pill bg-light d-block"> ${item.precio}</h6>
-                            <Itemcount valInicial={1} stock={10} />
-                            <a id={item.id} href="#" className="btn btn-primary d-block zoomIn ">Agregar</a>
-                        </div>
+            <div className="col-6 col-sm-4 col-md-3 text-center align-self-center">
+                <div className="card hvr-float-shadow my-3">
+                    <img  src={`../img/${item.img}`} className="card-img-top img-fluid" alt={`Imagen de ${item.nombre}`} />
+                    <div className="card-body">
+                        <h4 className="card-title">{item.nombre}</h4>
+                        <p className="card-text card-info">{item.descripcion}</p>
+                        <h6 className="price-text badge rounded-pill bg-light d-block mx-auto">${new Intl.NumberFormat('de-DE').format(item.precio)}</h6>
+                        <Itemcount valInicial={1} stock={item.stock}/>
+                        <button id={item.id} className="btn btn-primary zoomIn d-block mx-auto">Ver Producto</button>
                     </div>
                 </div>
+            </div>
         </>
     );
 }
